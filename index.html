@@ -89,84 +89,85 @@
                     <img class = "media allig-self-centre img-fluid" src = "img/logo.png">
                 </div>
                 <div class = "col col-sm-3" > 
-                  <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal">
+                  <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal"
+                  data-html="true" title="or call us at <br><strong>+852 12345678</strong></br>"
+                    data-placement="bottom" href="#reserveform">
                     Reserve Table
-                  </button>
-                  <div id="myModal" class="modal fade" role="dialog">
-                    <div class="modal-dialog modal-lg" role="content">
-                        <!-- Modal content-->
-                        <div class="modal-content">
-                            <div class="modal-header  bg-primary">
-                                <h4 class="modal-title">Reserve Table </h4>
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            </div>
-                            <div class="modal-body">
-                                <form>
-                                  <div class="form-group row">
-                                    <label for="Number of Guests" class="col-md-2 col-form-label  text">Number of guests</label>
-                                    <div class="form-check form-check-inline">
-                                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                                      <label class="form-check-label" for="inlineRadio1">1</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                      <label class="form-check-label" for="inlineRadio2">2</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-                                      <label class="form-check-label" for="inlineRadio3">3</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option4">
-                                      <label class="form-check-label" for="inlineRadio1">4</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option5">
-                                      <label class="form-check-label" for="inlineRadio2">5</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option6">
-                                      <label class="form-check-label" for="inlineRadio3">6</label>
-                                    </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <labe for = "smoking" class = "col-md-2 col-form-label text">Section</label>
-                                    <div class = "col-md-8 btn-group">
-                                        <a role="button" class = "form-control btn btn-success" href = "#">Non-smoking</a>
-                                        <a role="button" class = "form-control btn btn-danger" href = "#">Smoking</a>
-                                    </div>
-                  
-                                </div>
-                  
-                                <div class="form-group row">
-                                  <label for="date and time" class="col-md-2 col-sm col-form-label text ">Date and time</label>
-                                  <div class="col-md-6 col-sm-6">
-                                    <input type="text" class="form-control col-sm col-md-4" id="date" name="firstname" placeholder="dd-mm-yyyy" value=""min="1997-01-01" max="2030-12-31">
-                                    <input type="text" class="form-control col-sm col-md-4" id="time" name="lastname" placeholder="Time">
-                                  </div>
-                                </div>
-                  
-                                <div class="form-group row">
-                                  <div class="offset-md-2 col-md-10">
-                                    <button type="button" class="btn">
-                                      Cancel
-                                    </button>
-                                    <button type="button" class="btn btn-primary">
-                                      Reserve
-                                    </button>
-                                  </div>
-                                </div>
-                              </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                  
+                  </button>   
                 </div>
             </div>
         </div>
         
     </header>
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-lg" role="content">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Reserve Table</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group row">
+                <label for="Number of Guests" class="col-md-2 col-form-label">number of guests</label>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled>
+                  <label class="form-check-label" for="inlineRadio3">3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">4</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">5</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled>
+                  <label class="form-check-label" for="inlineRadio3">6</label>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="section" class="col-md-2 col-form-label">Section</label>
+                <div class="col-md-auto">
+                  <button type="button" class="btn-success">Non-Smoking</button>
+                  <button type="button" class="btn-danger">Smoking</button>
+                </div>
+              </div>
+
+                <div class="form-group row">
+                  <label for="date" class="col-md-2 col-form-label">Date and time</label>
+                  <div class="col-md-4">
+                    <input type="text" class="form-control" id="date" name="firstname" placeholder="Date">
+
+                  </div>
+                  <div class="col-md-4">
+                    <input type="text" class="form-control" id="time" name="lastname" placeholder="Time">
+                  </div>
+                </div>
+
+              <div class="form-group row">
+                <div class="offset-md-2 col-md-10">
+                  <button type="submit" class="btn btn-primary">
+                    Reserve
+                  </button>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
 
     <div class = "container">
       <div class="row row-content">
